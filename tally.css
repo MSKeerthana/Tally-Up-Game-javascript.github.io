@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800,900&display=swap");
+body{
+    font-size: 20px;
+    font-family: monospace;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+#container{
+    margin : 20px auto;
+    background-color:orangered;
+    height: 590px;
+    width : 80%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    padding: 1px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+h2{
+    text-align: center;
+    color: #53E0BC;
+}
+#p{
+    color: white;
+    margin-left: 40px; 
+    justify-content: stretch;
+    
+    
+}
+#start{
+    font-size: 3em; 
+    font-weight: bolder;
+    word-break: break-all;
+    
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    position: absolute; 
+    left: 35%;
+    top: 50%;
+    
+    color : lightgrey;
+}
+#start:hover{
+    border: 3px solid lightseagreen;
+    color : lightseagreen;
+}
+#box{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#lbox,#rbox{
+    width: 450px;
+    height: 300px;
+    background-color:white;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #45CE30;
+
+    
+   
+}
+/* #rbox{
+    width: 450px;
+    height: 300px;
+    background-color:white;
+    margin: 5px;
+    border-radius: 20px;
+} */
+#a,#b,#c,#d,#e,#f,#g,#h{ 
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    
+    
+    
+
+}
+
+
+.choice{
+    display: inline-block;
+    width : 150px;
+    height: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+#timer{
+    position: absolute;
+    left: 40px;
+    top: 70%;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+    
+}
+#counter{
+    font-size: 3em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+    
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+    
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+#scoreContainer{
+    margin : 20px auto;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    top: 2%;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+#scoreContainer img{
+    position: absolute;
+    top:100px;
+    left:325px;
+}
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+     

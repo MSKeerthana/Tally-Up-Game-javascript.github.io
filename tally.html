@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tally.css">
+    <title>Tally Up</title>
+</head>
+<body>
+    <div id="container">
+        <h1>TAlly Up Game</h1>
+        <div id="instructions">
+            <h2>instructions</h2>
+            <p class="p">Quickly identify which group of tokens has the highest value</p>
+            <p class="p">In this  Game there are 2 boxes are there in each Box there are
+                  3 or 4 random numbers are generated.
+            </p>
+            <p class="p"> t class="p"he game is to find out whether In which box the 
+                sum of random random numbers is > or < or = to the other
+                box with in 3 or 4 seconds, based on the correct answer the score
+                 will increase
+            </p>
+
+        </div>
+        <div id="start"> Start Game</div>
+        <div id="quiz" style="display: none">
+            
+            <div id="box">
+                <div id="lbox">
+                    <div id="a"></div>
+                    <div id="b"></div>
+                    <div id="c"></div>
+                    <div id="d"></div>
+                </div>
+                <div id="rbox">
+                    <div id="e"></div>
+                    <div id="f"></div>
+                    <div id="g"></div>
+                    <div id="h"></div>
+                </div>
+                <div id="choices">
+                    <div class="choice" id="G" onclick="checkAnswer('>')"></div>
+                    <div class="choice" id="E" onclick="checkAnswer('=')"></div>
+                    <div class="choice" id="L" onclick="checkAnswer('<')"></div>
+                </div>
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="tally.js"></script>
+</body>
+</html>
